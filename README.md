@@ -1,2 +1,2 @@
 # Animal-Trading-Card
-Google FEND exercise
+Udacity Google FEND exercise
