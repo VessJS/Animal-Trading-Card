@@ -1,0 +1,78 @@
+
+* {
+	max-width: 400px;
+	margin: auto;
+}
+
+
+#trading-card {
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: #6a93c1;
+	width: 300px;
+	height: 100%;
+	padding: 10px;
+	-webkit-box-shadow: 7px 7px 22px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 7px 22px 1px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 7px 22px 1px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	background-color: #4070a5;
+	border-radius: 5px;
+	font-size: 1.7em;
+
+}
+
+.image {
+	width: 300px;
+	border: 3px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 7px 7px 22px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 7px 22px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 7px 22px -3px rgba(0, 0, 0, 0.75);
+
+}
+
+.text-content {
+	font-family: 'Roboto Condensed', sans-serif;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	-webkit-box-shadow: 7px 7px 22px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 7px 22px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 7px 22px -3px rgba(0, 0, 0, 0.75);
+}
+
+.interestings {
+	font-style: italic;
+}
+
+p {
+	margin: 3px;
+}
+
+ul {
+	display: inline-block;
+	margin: 3px;
+}
+
+ul li {
+	font-size: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 4px;
+	width: 100%;
+	list-style-type: none;
+}
+
+ul li span {
+	font-weight: bold;
+}
